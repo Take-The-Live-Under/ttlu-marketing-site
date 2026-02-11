@@ -5,7 +5,10 @@ import { LiquidButton } from "@/components/ui/liquid-glass-button";
 
 export function HeroSection() {
   return (
-    <div className="relative flex min-h-screen w-full flex-col items-center justify-center pointer-events-auto px-4 sm:px-6">
+    <div
+      id="hero"
+      className="relative flex min-h-screen w-full flex-col items-center justify-center pointer-events-auto px-4 sm:px-6"
+    >
       <FadeOutBasketball />
       <div className="relative z-10 mx-auto w-full max-w-3xl border border-[#27272a] p-2">
         <main className="relative overflow-hidden border border-[#27272a] bg-black/50 py-10 backdrop-blur-sm">

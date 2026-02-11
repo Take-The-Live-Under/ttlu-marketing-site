@@ -6,7 +6,10 @@ import Image from "next/image";
 
 export function CTASection() {
   return (
-    <section className="relative w-full bg-black pt-20 pb-0 pointer-events-auto">
+    <section
+      id="cta"
+      className="relative w-full bg-black pt-20 pb-0 pointer-events-auto"
+    >
       <div className="max-w-7xl mx-auto px-6">
         {/* Main CTA Card */}
         <motion.div

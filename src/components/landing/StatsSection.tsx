@@ -39,7 +39,10 @@ const FeatureCard = ({ title, subtitle, description }: FeatureCardProps) => {
 
 export function StatsSection() {
   return (
-    <section className="relative w-full border-y border-[#27272a] bg-black py-24 pointer-events-auto">
+    <section
+      id="stats"
+      className="relative w-full border-y border-[#27272a] bg-black py-24 pointer-events-auto"
+    >
       <div className="mx-auto max-w-6xl px-6">
         <div className="grid gap-8 md:grid-cols-3">
           {[

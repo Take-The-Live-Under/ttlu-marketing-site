@@ -46,7 +46,10 @@ const GridItem = ({ area, icon, title, description }: GridItemProps) => {
 
 export function BenefitsSection() {
   return (
-    <section className="relative py-20 lg:py-32 overflow-hidden pointer-events-auto">
+    <section
+      id="benefits"
+      className="relative py-20 lg:py-32 overflow-hidden pointer-events-auto"
+    >
       {/* Subtle texture overlay */}
       <div
         className="absolute inset-0 opacity-[0.015]"
