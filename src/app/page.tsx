@@ -1,14 +1,14 @@
 import { BackgroundCells } from "@/components/ui/background-ripple-effect";
 import { HeroSection } from "@/components/landing/HeroSection";
-import { FeaturesSection } from "@/components/landing/FeaturesSection";
+import { StatsSection } from "@/components/landing/StatsSection";
+import { LiveDashboardSection } from "@/components/landing/LiveDashboardSection";
 import { HowItWorksSection } from "@/components/landing/HowItWorksSection";
-import { GamePlanSection } from "@/components/landing/GamePlanSection";
+import { BenefitsSection } from "@/components/landing/BenefitsSection";
+import { PricingSection } from "@/components/landing/PricingSection";
+import { FAQSection } from "@/components/landing/FAQSection";
 import { CTASection } from "@/components/landing/CTASection";
 
 import { SimpleStepsSection } from "@/components/landing/SimpleStepsSection";
-import { BuiltForFansSection } from "@/components/landing/BuiltForFansSection";
-import { PricingSection } from "@/components/landing/PricingSection";
-import { FAQSection } from "@/components/landing/FAQSection";
 
 export default function Home() {
   return (
@@ -21,10 +21,10 @@ export default function Home() {
       {/* Scrollable Content */}
       <div className="relative z-10 font-sans pointer-events-none">
         <HeroSection />
-        <FeaturesSection />
+        <StatsSection />
+        <LiveDashboardSection />
         <HowItWorksSection />
-        <GamePlanSection />
-        <BuiltForFansSection />
+        <BenefitsSection />
         {/* <SimpleStepsSection /> */}
         <PricingSection />
         <FAQSection />
