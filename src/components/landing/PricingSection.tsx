@@ -37,7 +37,7 @@ export function PricingSection() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
-            className="relative p-8 rounded-3xl border border-neutral-800 bg-neutral-900/50 hover:border-orange-500/20 transition-all duration-300 h-full flex flex-col"
+            className="relative p-8 rounded-3xl border border-neutral-800 bg-neutral-900/50 hover:border-orange-500/20 transition-all duration-300 h-full flex flex-col backdrop-blur-sm"
           >
             <div className="mb-8">
               <h3 className="text-2xl font-bold mb-2 text-white">Standard</h3>
@@ -84,7 +84,7 @@ export function PricingSection() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
-            className="relative p-8 rounded-3xl border border-orange-500/40 bg-gradient-to-b from-orange-500/[0.08] to-amber-500/[0.03] hover:border-orange-500/60 transition-all duration-300 h-full flex flex-col"
+            className="relative p-8 rounded-3xl border border-orange-500/40 bg-gradient-to-b from-orange-500/[0.08] to-amber-500/[0.03] hover:border-orange-500/60 transition-all duration-300 h-full flex flex-col backdrop-blur-sm"
           >
             {/* Popular badge */}
             <div className="absolute -top-3 left-8">
