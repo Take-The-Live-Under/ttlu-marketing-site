@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import { Logo } from "@/components/ui/logo";
 
 export function CTASection() {
   return (
@@ -76,7 +77,7 @@ export function CTASection() {
                   height={20}
                   className="text-neon-blue"
                 />
-                <span className="font-bold">TakeTheLiveUnder</span>
+                <Logo className="text-xl" />
               </div>
               <p className="mb-4 max-w-xs">
                 Data-driven insights for the modern sports bettor.

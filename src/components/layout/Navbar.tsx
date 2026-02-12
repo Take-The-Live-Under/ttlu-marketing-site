@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Logo } from "@/components/ui/logo";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -43,24 +44,9 @@ export function Navbar() {
         <div className="flex h-16 items-center px-0 lg:px-6 lg:bg-neutral-900/50 lg:border lg:border-neutral-800 lg:backdrop-blur-sm lg:rounded-2xl lg:shadow-sm">
           <Link
             href="/"
-            className="flex items-center gap-2 font-bold text-xl mr-2 lg:mr-6 text-foreground"
+            className="flex items-center gap-2 mr-2 lg:mr-6 text-foreground hover:opacity-90 transition-opacity"
           >
-            {/* <Activity className="h-6 w-6" /> Icon */}
-            <span>
-              <span
-                // className="text-neon-blue"
-                className="text-neon-blue drop-shadow-[0_0_5px_rgba(0,255,255,0.8)]"
-                style={{ fontFamily: "'Rock Salt', cursive" }}
-              >
-                TakeThe
-              </span>
-              <span
-                // className="text-neon-orange font-marker"
-                className="text-neon-orange font-marker drop-shadow-[0_0_5px_rgba(255,165,0,0.8)]"
-              >
-                LiveUnder
-              </span>
-            </span>
+            <Logo className="text-xl" />
           </Link>
           <nav className="hidden lg:flex gap-6 border-l border-neutral-800 pl-6 h-8 items-center">
             <Link
