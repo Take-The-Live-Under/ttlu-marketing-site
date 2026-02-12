@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #ededed;
 }
 
 @theme inline {
@@ -14,7 +14,7 @@
   --font-display: var(--font-manrope);
   --font-sketch: var(--font-rock-salt);
   --font-marker: var(--font-permanent-marker);
-  
+
   --color-neon-blue: #00ffff;
   --color-neon-pink: #ff00ff;
   --color-neon-lime: #ccff00;
@@ -34,6 +34,3 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-
-
