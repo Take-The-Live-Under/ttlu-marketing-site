@@ -40,10 +40,10 @@ export function HeroSection() {
           </p>
           <div className="my-8 flex items-center justify-center gap-1">
             <span className="relative flex h-3 w-3 items-center justify-center">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-500 opacity-75"></span>
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500"></span>
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-neon-orange opacity-75"></span>
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-neon-orange"></span>
             </span>
-            <p className="text-xs text-green-500">Live Game Tracking</p>
+            <p className="text-xs text-neon-orange">Live Game Tracking</p>
           </div>
 
           <div className="flex flex-wrap justify-center gap-4">
